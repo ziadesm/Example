@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_nav_home"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_my_profile"
+            android:icon="@drawable/ic_nav_my_profile"
+            android:title="@string/nav_my_profile" />
+        <item
+            android:id="@+id/nav_events"
+            android:icon="@drawable/ic_nav_event"
+            android:title="@string/nav_events" />
+
+        <item
+            android:id="@+id/nav_favourite"
+            android:icon="@drawable/ic_nav_favourite"
+            android:title="@string/nav_favourite" />
+
+        <item
+            android:id="@+id/nav_index"
+            android:icon="@drawable/ic_nav_index"
+            android:title="@string/nav_index" />
+    </group>
+
+    <item android:title="@string/other">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/ic_contact_us"
+                android:title="@string/nav_contact_us" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/ic_nav_feedback"
+                android:title="@string/nav_feedback" />
+            <item
+                android:id="@+id/nav_setting"
+                android:icon="@drawable/ic_nav_setting"
+                android:title="@string/nav_settings" />
+        </menu>
+    </item>
+
+    <item android:title="@string/nav_dashboard">
+            <menu>
+                <item
+                    android:id="@+id/nav_my_school"
+                    android:title="@string/nav_my_school" />
+                <item
+                    android:id="@+id/nav_add_school"
+                    android:title="@string/nav_add_school" />
+                <item
+                    android:id="@+id/nav_use_application"
+                    android:title="@string/nav_use_application" />
+            </menu>
+    </item>
+
+</menu>
